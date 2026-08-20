@@ -13,7 +13,7 @@ import numpy as np
 import joblib
 
 model = joblib.load("salary_prediction_model.pkl")
-model = joblib.load("label_encoder.pkl")
+model = joblib.load("label_encoder_new.pkl")
 
 
 st.title("salary prediction")
